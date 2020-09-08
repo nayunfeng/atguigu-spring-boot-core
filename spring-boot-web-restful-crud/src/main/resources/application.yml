@@ -1,1 +1,15 @@
+spring:
+  ## thymeleaf 配置
+  thymeleaf:
+    # 禁用页面缓存
+    cache: false
 
+  ## 国际化配置
+  messages:
+    basename: i18n.login
+
+
+
+server:
+  servlet:
+    context-path: /restful
